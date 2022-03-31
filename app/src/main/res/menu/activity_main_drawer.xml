@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_baseline_library_books_24"
+            android:title="@string/menu_library" />
+        <item
+            android:id="@+id/nav_watched"
+            android:icon="@drawable/ic_baseline_remove_red_eye_24"
+            android:title="@string/menu_watched_movies" />
+        <item
+            android:id="@+id/nav_watchlist"
+            android:icon="@drawable/ic_baseline_queue_play_next_24"
+            android:title="@string/menu_watch_list" />
+    </group>
+</menu>

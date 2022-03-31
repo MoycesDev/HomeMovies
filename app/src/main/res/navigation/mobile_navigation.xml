@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_watchlist">
+
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.example.homemovies.ui.library.LibraryFragment"
+        android:label="@string/menu_library"
+        tools:layout="@layout/fragment_library" />
+
+    <fragment
+        android:id="@+id/nav_watched"
+        android:name="com.example.homemovies.ui.watched.WatchedFragment"
+        android:label="@string/menu_watched_movies"
+        tools:layout="@layout/fragment_watched" />
+
+    <fragment
+        android:id="@+id/nav_watchlist"
+        android:name="com.example.homemovies.ui.watchList.WatchlistFragment"
+        android:label="@string/menu_watch_list"
+        tools:layout="@layout/fragment_watchlist" />
+</navigation>
